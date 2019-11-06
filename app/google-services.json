@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "674671669970",
+    "firebase_url": "https://assignment2-ca933.firebaseio.com",
+    "project_id": "assignment2-ca933",
+    "storage_bucket": "assignment2-ca933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674671669970:android:4dee542aa5ac86de85330b",
+        "android_client_info": {
+          "package_name": "ca.bcit.lin_kong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674671669970-vm4l6eq6tl3khand4j74imo4kmh6k6bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.bcit.lin_kong",
+            "certificate_hash": "dd3698944a51dec192f5bf92000ae8a2e43c2a01"
+          }
+        },
+        {
+          "client_id": "674671669970-g501o6apc78fm1ltauci4n0u5hh6q2ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.bcit.lin_kong",
+            "certificate_hash": "2f03d298b8db20e38bbd05da0e0b1b7cc1698be8"
+          }
+        },
+        {
+          "client_id": "674671669970-vodqmgk8tb64c3dhebfvftc5boc54ld3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DIS5-8s6H8EIc7dTXuZYl8eIeoiBaIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674671669970-vodqmgk8tb64c3dhebfvftc5boc54ld3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

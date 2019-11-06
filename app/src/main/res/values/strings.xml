@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lin_Kong</string>
+    <string name="HintUserId">Enter user name</string>
+    <string name="HintSystolic">Enter the Systolic Reading</string>
+    <string name="HintDiastolic">Enter the Diastolic Reading</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+</resources>
