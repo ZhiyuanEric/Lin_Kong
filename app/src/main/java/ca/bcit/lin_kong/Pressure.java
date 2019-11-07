@@ -10,6 +10,8 @@ public class Pressure {
     int Systolic;
     int Diastolic;
 
+    public Pressure() { }
+
     public Pressure(String id, String UserId, Date readDate, int Systolic, int Diastolic) {
         this.id = id;
         this.UserId = UserId;

@@ -15,6 +15,9 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 public class PressureListAdapter extends ArrayAdapter<Pressure> {
+    final DateFormat DATE = new SimpleDateFormat("yyyy/MM/dd");
+    final DateFormat TIME = new SimpleDateFormat("hh:mm:ss");
+
     private Activity context;
     private List<Pressure> pressureList;
 
@@ -41,13 +44,14 @@ public class PressureListAdapter extends ArrayAdapter<Pressure> {
         TextView tvSystolic = listViewItem.findViewById(R.id.textViewSystolic);
         TextView tvDiastolic = listViewItem.findViewById(R.id.textViewDiastolic);
         TextView tvReadDate = listViewItem.findViewById(R.id.textViewReadDate);
-        DateFormat formatter = new SimpleDateFormat("yyyy/MM/dd ");
+        TextView tvReadTime = listViewItem.findViewById(R.id.textViewReadTime);
 
         Pressure pressure = pressureList.get(position);
         tvUserId.setText(pressure.getUserId());
-        tvSystolic.setText(pressure.getSystolic());
-        tvDiastolic.setText(pressure.getDiastolic());
-        tvReadDate.setText(formatter.format(pressure.getReadDate()));
+        tvSystolic.setText("Systolic: " + pressure.getSystolic());
+        tvDiastolic.setText("Diastolic: " + pressure.getDiastolic());
+        tvReadDate.setText("Date: " + DATE.format(pressure.getReadDate()));
+        tvReadTime.setText("Time: " + TIME.format(pressure.getReadDate()));
 
         return listViewItem;
     }
